@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Rubik+Dirt&family=Rye&family=Special+Elite&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: special+elite;
+    font-weight: 300;
+    color:#3a3a3a;
+}
+
+h1, h2 {
+    font-family: rubik+dirt;
+}
+/*headings and logo*/
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    color: black;
+}
+#logo :hover {
+    transform: rotate(-45deg);
+}
+/*navications links*/
+#menu {
+    font-size: 130%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a{
+    text-decoration:  none;
+    color: inherit;
+}
+#menu .no-active:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu .active {
+    font-weight: bold;
+    font-size: 120%;
+}
+/*Hero Image*/
+
+#hero{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#title {
+    
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    top: 150px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+ 
+
+#title h1 {
+    color:  #fff;
+    font-size: 300%;
+}
+
+#title h2 {
+    color:  rgb(201, 201, 201);
+    font-size: 150%;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero.jpg') no-repeat center center;
+
+    /*animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+/*creates the level of zoom for hero image*/
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+#hero #title {
+    margin:auto;
+    text-align: center;
+}
+
+
+/*our-story*/
+
+#our-story {
+    height: 600px;
+    text-align: center;
+    margin:auto;
+    margin: 2% 5%;
+    font-size: 100%;
+}
+
+#our-story h2 {
+    padding: 2%;
+    font-family: ;
+    font-size: 200%;
+}
+
+/*Meetup times*/
+
+#times {
+    background-image: url('../images/instruments.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+#times h2 {
+    color:#fafafa;
+    margin: ;
+}
+
+#times a:hover {
+    font-size: 120%;
+}
+/*footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/*Media Queries*/
+
+/*For large and medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
+
+    #club-ethos{
+        width:65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear:both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width:100%;
+        clear:both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+/*For medium screens size from 950px wide and down */
+
+@media screen and (max-width:950px){
+
+    #menu{ 
+        clear: left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text{
+        left: 0;
+    }
+
+    #club-ethos {
+        width:  100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+    
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/*For small screens sizes 800px and down*/
+ @media screen and (max-width: 800px) {
+
+    #photos {
+        column-count: 2;
+    }
+ }

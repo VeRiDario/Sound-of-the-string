@@ -3,11 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <meta name="description" content="Love Running club for runners in Dublin, Ireland">
-    <meta name="kleywords" content="love runing, running club, ireland, dublin">
+    <meta name="description" content="“The Sound of the Strings” Street Music Academy">
+    <meta name="keywords" content="Guitar, Banjo, Mandolin, Music, Music Lessons, Dublin, Ireland , ">
     <link rel="icon" href="assets/images/icon.jpg">
     <link rel="stylesheet" href="assets/css/style.css">
-<title>Love Running</title>
+<title>The Sound of the Strings</title>
 </head>
 <body>
 <header>
@@ -24,13 +24,13 @@
     <nav>
         <ul id="menu">
             <li>
-                <a href="signup.html" class="no-active">Sign Up</a>
+                <a href="signup.html" class="active">Sign Up</a>
             </li>
             <li>
                 <a href="gallery.html" class="no-active">Gallery</a>
             </li>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html" class="no-active">Home</a>
             </li>    
         </ul>
     </nav>
@@ -42,9 +42,31 @@
         <h2>the best street music academy</h2>
     </div>
 </section>
+<section id="form"></section>
+<form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
+    <h2>Book your class now! <i class="fa-solid fa-guitar"></i></h2>
+    
+    <label for="user">User</label>
+    <input id="user" class="text-input" name="user" type="text" required>
+ 
+    <label for="email">Email Address</label>
+    <input type="email" id="email" class="text-input" name="email_address" required>
+    
+    <label for="guitar">Guitar</label>
+    <input type="radio" id="guitar" name="instrument" value="guitar" required>
+    <br>
+    <label for="banjo">Banjo</label>
+    <input type="radio" id="banjo" name="instrument" value="banjo" required>
+    <br>
+    <label for="mandolin">Mandolin</label>
+    <input type="radio" id="mandolin" name="instrument" value="mandolin" required>
+    <br>
+    <input class="lets-play" type="submit" value="let's play">
 
-
-
+    <input type="checkbox" id="privacy-policy" name="privacy-policy" value="Privacy Policy" required>
+    <label for="privacy-policy">I accept the <a href="https://codeinstitute.net/ie/privacy-policy/" rel="nofollow">Privacy Policy</a></label>
+</form>
+</section>
 <footer>
     <ul class="social-networks">
         <li>

@@ -59,7 +59,7 @@ h1, h2 {
 /*Hero Image*/
 
 #hero{
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -162,6 +162,70 @@ h1, h2 {
 #class a:hover {
     font-size: 120%;
 }
+
+/*Sing Up*/
+#form{
+    clear: left;
+    background: url("../images/signup-background.jpg");
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+#signup-form {
+    margin: 150px 10% 0 0;
+    color:rgb(0, 0, 0);
+    background-color:rgba(252, 188, 70, 0.788);
+    border: #fafafa 1px solid;
+    max-width:400px;
+    position:absolute;
+    left: 10%;
+    padding: 30px;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+#signup-form h2 {
+    color:black;
+    margin-bottom:20px;
+}
+
+.text-input {
+    background:transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    background-color: rgb(167, 167, 167, 45%);
+    border-color: black;
+}
+
+.lets-play {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(252, 188, 70, 75%);
+    color: black;
+    display: block;
+    border-radius: 5%;
+    border: black 1px solid;
+}
+
+.lets-play:hover {
+    background-color:  hsla(0, 0%, 78%, 0.61);
+    color:black;
+    font-weight: bold;
+}
+
+
 /*footer*/
 
 footer {
@@ -199,60 +263,6 @@ footer {
 
 #pictures > img {
     width: 100%;
-}
-
-/*Sing Up*/
-#form{
-    clear: left;
-    background: url("../images/signup-background.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-#signup-form {
-    margin: 150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-#signup-form h2 {
-    color:#fafafa;
-    margin-bottom:20px;
-}
-
-.text-input {
-    background:transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-
-.lets-play {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
-}
-
-.lets-play:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
 }
 
 

@@ -166,7 +166,7 @@ h1, h2 {
 /*Sing Up*/
 #form{
     clear: left;
-    background: url("../images/signup-background.jpg");
+    background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0), rgb(255, 255, 255)), url("../images/signup-background.jpg");
     opacity: 90%;
     background-size: cover;
     background-position: center;
@@ -193,16 +193,16 @@ h1, h2 {
 
 .text-input {
     background:transparent;
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .text-input:hover {
-    background-color: rgb(167, 167, 167, 45%);
+    background-color: hsla(0, 5%, 89%, 0.521);
     border-color: black;
 }
 
@@ -220,7 +220,7 @@ h1, h2 {
 }
 
 .lets-play:hover {
-    background-color:  hsla(0, 0%, 78%, 0.61);
+    background-color:  hsla(0, 5%, 89%, 0.521);
     color:black;
     font-weight: bold;
 }

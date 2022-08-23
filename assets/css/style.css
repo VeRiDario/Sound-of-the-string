@@ -6,13 +6,13 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 h1, h2 {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*headings and logo*/
 
@@ -112,8 +112,8 @@ h1, h2 {
 #hero #title {
     margin:auto;
     text-align: center;
+    transform: scale(1.3);
 }
-
 
 /*our-story*/
 
@@ -131,7 +131,7 @@ h1, h2 {
 
 #our-story p {
     font-size: 110%;
-    text-justify: auto;
+    text-align: justify center;
 }
 
 /*Classes*/
@@ -181,25 +181,74 @@ h1, h2 {
     font-size: 200%;
 }
 
+#teachers h3 {
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+    font-size: 155%;
+}
+
+#teachers h4 {
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+    font-size: 135%;
+}
+
+#teachers p {
+    margin: auto;
+    padding: 3%;
+    font-size: 100%;
+    text-align: justify center;
+}
+
 .teacher-instruments {
     width: 28%;
     margin: auto;
-    height: 300px;
+    height: 500px;
     float: left;
     padding: 30px 0 0 0px;
     text-align: center;
-    border: 2px solid rgb(8, 8, 8);
-    box-sizing: border-box;
     border-radius: 15px;
     text-justify: auto;
 }
   
-#container{
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
 } 
-  
+
+.circle {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    border: 3px solid rgb(71, 71, 71);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 10px 10px 8px;
+  }
+
+  #mandolin-circle {
+    background: url('../images/1mandolin.jpg') no-repeat center center;
+    background-size:cover;
+  }
+
+  #guitar-circle {
+    background: url('../images/5guitar.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  #banjo-circle {
+    background: url('../images/1banjo.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+
+  div > .circle:hover{
+    transform: scale(1.2);
+  }
+
 /*Sing Up*/
 #form{
     clear: left;

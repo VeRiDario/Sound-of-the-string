@@ -397,9 +397,11 @@ footer {
     #check:not(:checked) ~ nav {
         display: none;
     }
+    
     #check:checked ~ nav {
         display: block;
     }
+
     .bb {
         display: block;
         color: #3a3a3a;
@@ -410,7 +412,7 @@ footer {
     }
 
     #check, #close {
-        display:none;
+        display: none;
     }
 
     #menu {
@@ -423,7 +425,7 @@ footer {
     }
 
     #menu, #logo {
-        line-height: 0;
+        clear: both;
     }
     #menu li {
         text-align: center;

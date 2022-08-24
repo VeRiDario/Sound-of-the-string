@@ -131,7 +131,7 @@ h1, h2 {
 
 #our-story p {
     font-size: 110%;
-    text-align: justify center;
+    text-align: center;
 }
 
 /*Classes*/
@@ -199,7 +199,7 @@ h1, h2 {
     margin: auto;
     padding: 3%;
     font-size: 100%;
-    text-align: justify center;
+    text-align: center;
 }
 
 .teacher-instruments {
@@ -423,7 +423,7 @@ footer {
     }
 
     #menu, #logo {
-        line-height: clear;
+        line-height: 0;
     }
     #menu li {
         text-align: center;
@@ -437,6 +437,14 @@ footer {
 
     #pictures {
         column-count: 2;
+    }
+
+    #title h1 {
+        transform: scale(0.6);
+    }
+    
+    #title h2 {
+        transform: scale(0.6);
     }
  }
 

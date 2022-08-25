@@ -46,7 +46,7 @@ The Sound of the Strings website page is a landing page intended to reach all th
 ### The Footer
 
 •	It is very simple. It only shows the social media linked to the website.
-•	Each Social Media is a “nooper” button. T<When clicking on them, he website will open a new tab showing the corresponding Social Media page.
+•	Each Social Media is a “nooper” button. When clicking on them, he website will open a new tab showing the corresponding Social Media page.
 
 ![Image 8](https://user-images.githubusercontent.com/89994195/186780481-9e14db7f-966f-4b5f-8144-2dbc888f3de5.png)
 

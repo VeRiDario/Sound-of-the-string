@@ -7,7 +7,7 @@ First  project for Code Institute Diploma in Full Stack Software Development
 
 In this project we used some simple HTML5 and CSS3 to build the project, we wrote our code using the Cloud9 IDE, and we've backed it up using Git and GitHub
 
-## introduction
+## Introduction
 
 The Sound of the Strings website page is a landing page intended to reach all the people that want to learn how to play a string musical instrument. It offers in presence free courses in the middle of Dublin City Center. The courses are suitable for people of every age. The users of the website are able to find all the information they need about the locations, timetables, type of string instrument and sign up form. In the Home, under the Our Story section, they can learn more about the idea which gave birth to the Music Academy.
 

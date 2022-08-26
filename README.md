@@ -1,7 +1,7 @@
 # ***Sound-of-the-string***
 First  project for Code Institute Diploma in Full Stack Software Development
 
-View the "[Sound of the strings]( https://veridario.github.io/Sound-of-the-string/)" website here on GitHub Pages.
+[View the "Sound of the strings" website here on GitHub Pages.](https://veridario.github.io/Sound-of-the-string/)
 
 ##Technologies Used
 

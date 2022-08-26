@@ -1,6 +1,8 @@
 # ***Sound-of-the-string***
 First  project for Code Institute Diploma in Full Stack Software Development
 
+View the "{Sound of the strings]( https://veridario.github.io/Sound-of-the-string/)" website here on GitHub Pages.
+
 ##Technologies Used
 
 In this project we used some simple HTML5 and CSS3 to build the project, we wrote our code using the Cloud9 IDE, and we've backed it up using Git and GitHub
